@@ -7,7 +7,7 @@ setup(
     author_email='k@kmonsoor.com',
     license='MIT',
     py_modules=['lektor_embed_x'],
-    requires=['lektor', 'embedx']
+    install_requires=['lektor', 'embedx']
     entry_points={
         'lektor.plugins': [
             'embed-x = lektor_embed_x:EmbedXPlugin',
