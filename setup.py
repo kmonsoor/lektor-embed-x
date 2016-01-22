@@ -6,8 +6,9 @@ setup(
     author=u'Khaled Monsoor',
     author_email='k@kmonsoor.com',
     license='MIT',
+    url='https://github.com/kmonsoor/lektor-embed-x',
     py_modules=['lektor_embed_x'],
-    install_requires=['lektor', 'embedx']
+    install_requires=['embedx'],
     entry_points={
         'lektor.plugins': [
             'embed-x = lektor_embed_x:EmbedXPlugin',
