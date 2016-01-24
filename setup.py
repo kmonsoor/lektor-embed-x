@@ -7,7 +7,6 @@ from setuptools import setup
 here = path.abspath(path.dirname(__file__))
 try:
     from pypandoc import convert
-
     long_description = convert('README.md', 'rst')
 except(OSError, IOError, ImportError):
     with open(path.join(here, 'README.md'), encoding='utf-8') as f:
@@ -28,7 +27,7 @@ setup(
             'embed-x = lektor_embed_x:EmbedXPlugin',
         ]
     },
-    keywords=['embed', 'html', 'javascript', 'embeddable', 'code generation', 'from url'],
+    keywords=['lektor', 'embed', 'html', 'javascript', 'embeddable', 'code generation', 'from url'],
     platforms='any',
     long_description=long_description,
     classifiers=[
