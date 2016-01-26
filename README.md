@@ -36,11 +36,22 @@ Then, remember to flash the plugin-cache of `Lektor`. Just in case.
 You need nothing explicit to enable the embedding in [MarkDown](https://daringfireball.net/projects/markdown/syntax) formatted text on Lektor.
 If the content link is supported by [embedX project](https://github.com/kmonsoor/embedX), the content link will automatically expanded to become embedded staff.
 
-For example, check out this page. // TODO
+For example, check out the sample post and its output below.
+
+#### sample post
+
+![sample post](https://raw.githubusercontent.com/kmonsoor/lektor-embed-x/master/sample_post.png)
 
 
+#### respective output
+![output](https://raw.githubusercontent.com/kmonsoor/lektor-embed-x/master/sample_output.png)
+
+
+### Apology
+Please note that this is a very nascent one-man project under active development and just out of pre-alpha phase. Hence, not many providers or link format is there. Yet. But, I hope it will be mature in a short time.  Your feedback, reported issues and pull-requests will be highly valuable.
 
 -----------
 **Copyright:** (c) 2016 Khaled Monsoor <k@kmonsoor.com>
 
-Distributed under **The MIT License**.  [Click for license details](http://kmonsoor.mit-license.org/).
+Distributed under **The MIT License**.  
+[Click for license details](http://kmonsoor.mit-license.org/).
