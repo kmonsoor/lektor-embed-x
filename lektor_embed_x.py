@@ -24,7 +24,7 @@ class EmbedXMixin(object):
                 content = OnlineContent(link)
                 # print content.get_embed_code()
                 return Markup(content.get_embed_code())
-            except (NotImplementedError, ValueError):
+            except (NotImplementedError, ValueError, AttributeError):
                 print('This host or this specific content is not supported yet. link: {0}'.format(link))
                 return super(EmbedXMixin, self).autolink(link, False)
 
